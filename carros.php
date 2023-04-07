@@ -10,24 +10,16 @@
 </head>
 <body>
     <div class="container">
-            <div class="row">
-        <div class="col"></div>
-        <div class="col-10">
-            <div class="card">
-                <div class="card-body">
-                    <?php
-                        $i = $_GET['id'];
-                        $modelo = ['Fusca', 'Ferrari', 'Camaro'];
-                        $valor = [100, 200, 300];
-                        $img = ['c1.jpg', 'c2.jpg', 'c3.jpg', 'c4.jpg', 'c5.jpg', 'c6.jpg', 'c7.jpg', 'c8.jpg', 'c9.jpg', 'c10.jpg'];
-                        $carro = '<h1 class="modelo">' . $modelo[$i] . '</h1><p class="valor">' . $valor[$i] . '</p><img class="imagem" src="./images/' . $img[$i] . '">';
-                        echo $carro;
-                    ?>
-                </div>
-            </div>
+        <div class="box">
+            <?php
+                $i = $_GET['id'];
+                $modelo = ['Fusca', 'Ferrari', 'Camaro'];
+                $valor = [100, 200, 300];
+                $img = ['c1.jpg', 'c2.jpg', 'c3.jpg', 'c4.jpg', 'c5.jpg', 'c6.jpg', 'c7.jpg', 'c8.jpg', 'c9.jpg', 'c10.jpg'];
+                $carro = '<h1 class="modelo">' . $modelo[$i] . '</h1><p class="valor">' . $valor[$i] . '</p><img class="imagem" src="./images/' . $img[$i] . '">';
+                echo $carro;
+            ?>
         </div>
-        <div class="col"></div>
-    </div>
     </div>
 </body>
 </html>

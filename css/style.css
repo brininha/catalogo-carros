@@ -2,7 +2,7 @@ body {
     background-color: #121212;
 }
 
-.card:hover {
+.card-click:hover {
     opacity: 0.95;
 }
 
@@ -17,4 +17,23 @@ a {
 
 .preco {
     text-align: center;
+}
+
+.box {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: fit-content;
+    width: fit-content;
+    margin: auto;
+    text-align: center;
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.imagem {
+    border-radius: 10px;
 }

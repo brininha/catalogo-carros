@@ -14,7 +14,7 @@
     ?>
     <div class="container">
         <div class="card-group">
-            <div class="card">
+            <div class="card card-click">
                 <a href="carros.php?id=0">
                     <img src="./images/c1.jpg" class="card-img-top">
                     <div class="card-body">
@@ -23,7 +23,7 @@
                     </div>
                 </a>
             </div>
-            <div class="card">
+            <div class="card card-click">
                 <a href="carros.php?id=1">
                     <img src="./images/c2.jpg" class="card-img-top">
                     <div class="card-body">
@@ -32,7 +32,7 @@
                     </div>
                 </a>
             </div>
-            <div class="card">
+            <div class="card card-click">
                 <a href="carros.php?id=2">
                     <img src="./images/c3.jpg" class="card-img-top">
                     <div class="card-body">
@@ -41,7 +41,7 @@
                     </div>
                 </a>
             </div>
-            <div class="card">
+            <div class="card card-click">
                 <a href="carros.php?id=3">
                     <img src="./images/c4.jpg" class="card-img-top">
                     <div class="card-body">
@@ -50,7 +50,7 @@
                     </div>
                 </a>
             </div>
-            <div class="card">
+            <div class="card card-click">
                 <a href="carros.php?id=4">
                     <img src="./images/c5.jpg" class="card-img-top">
                     <div class="card-body">
@@ -61,7 +61,7 @@
             </div>
         </div>
         <div class="card-group">
-            <div class="card">
+            <div class="card card-click">
                 <a href="carros.php?id=5">
                     <img src="./images/c6.jpg" class="card-img-top">
                     <div class="card-body">
@@ -70,7 +70,7 @@
                     </div>
                 </a>
             </div>
-            <div class="card">
+            <div class="card card-click">
                 <a href="carros.php?id=6">
                     <img src="./images/c7.jpg" class="card-img-top">
                     <div class="card-body">
@@ -79,7 +79,7 @@
                     </div>
                 </a>
             </div>
-            <div class="card">
+            <div class="card card-click">
                 <a href="carros.php?id=7">
                     <img src="./images/c8.jpg" class="card-img-top">
                     <div class="card-body">
@@ -88,7 +88,7 @@
                     </div>
                 </a>
             </div>
-            <div class="card">
+            <div class="card card-click">
                 <a href="carros.php?id=8">
                     <img src="./images/c9.jpg" class="card-img-top">
                     <div class="card-body">
@@ -97,7 +97,7 @@
                     </div>
                 </a>
             </div>
-            <div class="card">
+            <div class="card card-click">
                 <a href="carros.php?id=9">
                     <img src="./images/c10.jpg" class="card-img-top">
                     <div class="card-body">
