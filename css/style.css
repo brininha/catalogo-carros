@@ -1,0 +1,20 @@
+body {
+    background-color: #121212;
+}
+
+.card:hover {
+    opacity: 0.95;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.modelo {
+    text-align: center;
+}
+
+.preco {
+    text-align: center;
+}
