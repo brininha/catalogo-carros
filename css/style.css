@@ -2,21 +2,9 @@ body {
     background-color: #121212;
 }
 
-.card-click:hover {
-    opacity: 0.95;
-}
-
 a {
     text-decoration: none;
     color: black;
-}
-
-.modelo {
-    text-align: center;
-}
-
-.preco {
-    text-align: center;
 }
 
 .box {
@@ -31,9 +19,58 @@ a {
     text-align: center;
     background: white;
     border-radius: 10px;
-    padding: 20px;
+    padding: 20px 35px;
 }
 
 .imagem {
     border-radius: 10px;
+    width: 350px;
+    height: auto;
+    margin: 15px;
+    margin-bottom: 0;
+}
+
+.car-price {
+    color: rgb(0, 94, 255);
+}
+
+.car-text {
+    font-size: 20px;
+    line-height: 15px;
+}
+
+.form-title {
+    font-size: 20px;
+}
+
+label {
+    font-size: 16px;
+}
+
+.card-img-top {
+    height: 70%;
+}
+
+.card-text {
+    line-height: 10px;
+}
+
+.car-gif {
+    height: 90px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-left: 20px;
+}
+
+.config-icon {
+    opacity: 0.3;
+}
+
+.config-icon:hover {
+    opacity: 0.8;
+}
+
+.label-name {
+    text-transform: capitalize;
 }
