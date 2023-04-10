@@ -34,7 +34,7 @@
             <h2 style="font-size: 25px"><?=$modelo?> <a class="config-icon" href="alterar.php?id=<?=$id?>&campo=modelo">⚙️</a></h2>
             <figure>
                 <img src="<?=$img?>" class="imagem" alt=" Falha no carregamento">
-                <figcaption><a class="config-icon" href="alterar.php?id=<?=$id?>&campo=modelo">⚙️</a></figcaption>
+                <figcaption><a class="config-icon" href="alterar.php?id=<?=$id?>&campo=imagem">⚙️</a></figcaption>
             </figure>
             <p class="car-text">Preço: <b class="car-price">R$ <?=$valor?></b> <a class="config-icon" href="alterar.php?id=<?=$id?>&campo=valor">⚙️</a></p>
             <p class="car-text">Ano: <?=$ano?> <a class="config-icon" href="alterar.php?id=<?=$id?>&campo=ano">⚙️</a></p>
@@ -55,6 +55,18 @@
             ?>
                     <audio id="musica" autoplay>
                         <source src="./audios/barbie.mp3" type="audio/mp3">
+                    </audio>
+            <?php
+                } else if ($modelo == 'Nôitibus Andante') {
+            ?>
+                    <audio id="musica" autoplay>
+                        <source src="./audios/hp.mp3" type="audio/mp3">
+                    </audio>
+            <?php
+                } else if ($modelo == 'Máquina de Mistério') {
+            ?>
+                    <audio id="musica" autoplay>
+                        <source src="./audios/scooby.mp3" type="audio/mp3">
                     </audio>
             <?php
                 }
