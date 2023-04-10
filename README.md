@@ -1,2 +1,2 @@
 # carros-tops
-Projeto simples de Programação de Web 🚗.
+Projeto de Programação de Web 🚗.
