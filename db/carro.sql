@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 10, 2023 at 10:26 PM
+-- Generation Time: Apr 10, 2023 at 11:33 PM
 -- Server version: 10.4.27-MariaDB
 -- PHP Version: 8.2.0
 
@@ -56,7 +56,10 @@ INSERT INTO `carro` (`id`, `modelo`, `valor`, `imagem`, `ano`, `cor`, `km`) VALU
 (17, 'Volkswagen Brasília', '27900', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnqsQrgCMD-sF1OXUOhkCNtO38xg15MOqOGQ&usqp=CAU', '1979', 'Amarelo', '72000'),
 (18, 'Mini Buggy Cirilo ', '22400', 'https://http2.mlstatic.com/D_NQ_NP_918941-MLA52500225165_112022-O.jpg', '2020', 'Laranja', '0'),
 (19, 'Fiat Mobi', '68990', 'https://motosnovas.com.br/wp-content/uploads/2017/11/Novo-Mobi-2019.jpg', '2021', 'Azul marinho', '40000'),
-(20, 'Nôitibus Andante', '25300000', 'https://pbs.twimg.com/media/EKa-dDPXUAEDfPp.jpg', '1998', 'Roxo', '200000');
+(20, 'Nôitibus Andante', '25300000', 'https://pbs.twimg.com/media/EKa-dDPXUAEDfPp.jpg', '1998', 'Roxo', '200000'),
+(21, 'Porsche Boxter Spyder', '480000', 'https://www.autoo.com.br/fotos/2015/960_640/porsche-boxster-spyder-2_960_640.jpg', '2016', 'Branco', '0'),
+(22, 'Chevrolet Corvette', '454300', 'https://cdn05.carsforsale.com/00f565b0978e1bcd4ebff83ac729df8e1e/800x600/1963-chevrolet-corvette-con', '1962', 'Preto', '52510'),
+(23, 'Ford Model A', '382000', 'https://upload.wikimedia.org/wikipedia/commons/d/dd/1930-31_Ford_Model_A_Coupe_Hot_Rod.jpg', '1931', 'Laranja', '5300');
 
 --
 -- Indexes for dumped tables
@@ -76,7 +79,7 @@ ALTER TABLE `carro`
 -- AUTO_INCREMENT for table `carro`
 --
 ALTER TABLE `carro`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=21;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=24;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

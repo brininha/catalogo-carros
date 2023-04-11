@@ -69,6 +69,12 @@
                         <source src="./audios/scooby.mp3" type="audio/mp3">
                     </audio>
             <?php
+                } else if ($modelo == 'Volkswagen Brasília') {
+            ?>
+                    <audio id="musica" autoplay>
+                        <source src="./audios/mamonas.mp3" type="audio/mp3">
+                    </audio>
+            <?php
                 }
             ?>
         </div>
